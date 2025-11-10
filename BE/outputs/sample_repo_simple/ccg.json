@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    "compute",
+    "main"
+  ],
+  "edges": [
+    [
+      "main",
+      "print"
+    ],
+    [
+      "main",
+      "compute"
+    ],
+    [
+      "main",
+      "main"
+    ],
+    [
+      "compute",
+      "range"
+    ]
+  ],
+  "analyses": {
+    "src/app.py": {
+      "functions": [
+        "main"
+      ],
+      "classes": [],
+      "calls": [
+        "print",
+        "compute",
+        "main"
+      ],
+      "calls_map": {
+        "main": [
+          "print",
+          "compute",
+          "main"
+        ]
+      }
+    },
+    "src/utils.py": {
+      "functions": [
+        "compute"
+      ],
+      "classes": [],
+      "calls": [
+        "range"
+      ],
+      "calls_map": {
+        "compute": [
+          "range"
+        ]
+      }
+    }
+  }
+}

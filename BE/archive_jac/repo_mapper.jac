@@ -1,15 +1,8 @@
-# repo_mapper.jac (brace-style stub)
-# Minimal repo mapper stub for current jac runtime: returns a small sample map
+# Archived: original `repo_mapper.jac`
 
-# NOTE: py_module-based Python interop isn't available in the installed jac
-# in this environment. This stub returns sample data so the Jac pipeline
-# can be validated end-to-end. We can replace with a real implementation
-# after upgrading jac or adding supported interop.
-
+# Original stubbed content
 walker map_repo(url) {
     print("Repo Mapper: (stub) cloning " + url);
-
-    # Stubbed response (fixed/simple for compatibility)
     repo_name = "sample_repo";
     local_path = "./tmp_repos/" + repo_name;
     files = ["src/main.py", "src/utils.py", "README.md"];

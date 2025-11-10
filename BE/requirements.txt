@@ -1,0 +1,4 @@
+jaclang==0.8.10
+# Minimal requirements for Codebase Genius Python backend
+# The runtime uses only Python stdlib for analysis (ast, os, shutil).
+# `jaclang` is included here for convenience if you use Jac locally.

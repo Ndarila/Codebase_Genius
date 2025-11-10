@@ -1,5 +1,4 @@
-# supervisor.jac
-# Supervisor (Code Genius) - orchestrates mapping, analysis and doc generation
+# Archived: original `supervisor.jac`
 
 import repo_mapper as mapper;
 import code_analyzer as analyzer;
@@ -40,4 +39,3 @@ walker supervisor_run(url: str) -> str:
     ::print("Supervisor: docs generated at " + out)
 
     ret out
-
