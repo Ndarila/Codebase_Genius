@@ -81,5 +81,5 @@ The project implements an agentic code-documentation system that:
 
 I certify that this is my original work and all sources have been properly cited.
 
-Signature: _________________  
+James Ndarila Wanjala 
 Date: November 10, 2025
